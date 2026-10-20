@@ -1,7 +1,7 @@
 import { FilterChip } from "@/components/records/filter-chip";
 import { ResultsTable } from "@/components/records/results-table";
 import { bestTimes } from "@/lib/records/catalog";
-import { DIVISIONS, type Division, type Gender } from "@/lib/records/types";
+import { DIVISIONS, type Division, type Gender, type ResultRow } from "@/lib/records/types";
 
 const genders = [
   { id: "all", label: "전체" },
@@ -10,33 +10,47 @@ const genders = [
 ] as const;
 
 export function RankingsExplorer({
+  meets,
+  meet,
   distances,
   division,
   gender,
   distance,
 }: {
+  meets: { id: string; name: string }[];
+  meet: string;
   distances: number[];
   division: Division | null;
   gender: Gender | "all";
   distance: number | "all";
 }) {
-  const grouped = new Map<string, number>();
-  const rows = division
-    ? bestTimes({ division, gender, distance }).map((row) => {
-        const key = `${row.gender}:${row.distance}`;
-        const next = (grouped.get(key) ?? 0) + 1;
-        grouped.set(key, next);
-        return { ...row, divisionRank: next, rank: null };
-      })
+  const selected = meets.filter((item) => item.id === meet);
+  const sections = division
+    ? selected.map((item) => ({
+        id: item.id,
+        name: item.name,
+        rows: rankWithinGroups(bestTimes({ division, gender, distance, competitionId: item.id })),
+      }))
     : [];
 
   return (
     <div className="flex min-w-0 flex-col gap-6">
+      <FilterGroup label="대회">
+        {meets.map((item) => (
+          <FilterChip
+            key={item.id}
+            href={rankingsHref(item.id, division, gender, distance)}
+            selected={meet === item.id}
+          >
+            {item.name}
+          </FilterChip>
+        ))}
+      </FilterGroup>
       <FilterGroup label="부문">
         {DIVISIONS.map((option) => (
           <FilterChip
             key={option.id}
-            href={rankingsHref(option.id, gender, distance)}
+            href={rankingsHref(meet, option.id, gender, distance)}
             selected={division === option.id}
           >
             {option.label}
@@ -47,7 +61,7 @@ export function RankingsExplorer({
         {genders.map((option) => (
           <FilterChip
             key={option.id}
-            href={rankingsHref(division, option.id, distance)}
+            href={rankingsHref(meet, division, option.id, distance)}
             selected={gender === option.id}
           >
             {option.label}
@@ -55,13 +69,13 @@ export function RankingsExplorer({
         ))}
       </FilterGroup>
       <FilterGroup label="거리">
-        <FilterChip href={rankingsHref(division, gender, "all")} selected={distance === "all"}>
+        <FilterChip href={rankingsHref(meet, division, gender, "all")} selected={distance === "all"}>
           전체
         </FilterChip>
         {distances.map((value) => (
           <FilterChip
             key={value}
-            href={rankingsHref(division, gender, value)}
+            href={rankingsHref(meet, division, gender, value)}
             selected={distance === value}
           >
             {value}m
@@ -69,14 +83,29 @@ export function RankingsExplorer({
         ))}
       </FilterGroup>
       {division ? (
-        <ResultsTable rows={rows} showEvent />
+        sections.map((section) => (
+          <section key={section.id} className="flex min-w-0 flex-col gap-3">
+            <h2 className="text-lg font-medium">{section.name}</h2>
+            <ResultsTable rows={section.rows} showEvent />
+          </section>
+        ))
       ) : (
         <p className="rounded-xl border border-dashed px-4 py-10 text-center text-sm text-muted-foreground">
-          부문을 선택하면 그 부문의 최고 기록이 표시됩니다.
+          부문을 선택하면 그 대회 안의 최고 기록이 표시됩니다.
         </p>
       )}
     </div>
   );
+}
+
+function rankWithinGroups(rows: ResultRow[]) {
+  const grouped = new Map<string, number>();
+  return rows.map((row) => {
+    const key = `${row.gender}:${row.distance}`;
+    const next = (grouped.get(key) ?? 0) + 1;
+    grouped.set(key, next);
+    return { ...row, divisionRank: next, rank: null };
+  });
 }
 
 function FilterGroup({ label, children }: { label: string; children: React.ReactNode }) {
@@ -89,11 +118,13 @@ function FilterGroup({ label, children }: { label: string; children: React.React
 }
 
 function rankingsHref(
+  meet: string,
   division: Division | null,
   gender: Gender | "all",
   distance: number | "all",
 ) {
   const params = new URLSearchParams();
+  if (meet) params.set("meet", meet);
   if (division) params.set("division", division);
   if (gender !== "all") params.set("gender", gender);
   if (distance !== "all") params.set("distance", String(distance));

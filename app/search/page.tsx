@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { Suspense } from "react";
 
+import { GrowthCharts } from "@/components/records/growth-charts";
 import { PublishedSearch } from "@/components/records/published-search";
 import { ResultsTable } from "@/components/records/results-table";
 import { SearchForm } from "@/components/records/search-form";
 import { Badge } from "@/components/ui/badge";
-import { competition, rows, searchAthletes } from "@/lib/records/catalog";
+import { rows, searchAthletes } from "@/lib/records/catalog";
+import { growthSeriesFor } from "@/lib/records/growth";
 import { divisionLabel } from "@/lib/records/labels";
 
 export default function SearchPage({
@@ -64,6 +66,7 @@ async function SearchContent({
               </ul>
             )}
           </section>
+          <GrowthCharts series={growthSeriesFor(matchedRows, rows)} />
           <section className="flex flex-col gap-3">
             <h2 className="text-sm font-medium text-muted-foreground">기록 {matchedRows.length}</h2>
             <ResultsTable rows={matchedRows} showEvent />
@@ -72,8 +75,8 @@ async function SearchContent({
       ) : (
         <p className="text-sm text-muted-foreground">
           이름이나 소속을 입력하세요. 대회 전체 결과는{" "}
-          <Link href={`/meets/${competition.id}`} className="underline">
-            {competition.name}
+          <Link href="/meets" className="underline">
+            대회 목록
           </Link>
           에서 볼 수 있습니다.
         </p>

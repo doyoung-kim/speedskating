@@ -3,11 +3,11 @@ import Link from "next/link";
 import { PublishedMeets } from "@/components/records/published-meets";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { meetSummary } from "@/lib/records/catalog";
+import { listMeetSummaries } from "@/lib/records/catalog";
 import { formatDateRange } from "@/lib/records/labels";
 
 export default function MeetsPage() {
-  const meet = meetSummary();
+  const meets = listMeetSummaries();
 
   return (
     <main className="flex flex-col gap-6">
@@ -18,25 +18,27 @@ export default function MeetsPage() {
         </p>
       </div>
       <PublishedMeets />
-      <Card>
-        <CardHeader>
-          <div className="flex items-center gap-2">
-            <CardTitle>
-              <Link href={`/meets/${meet.competition.id}`} className="hover:underline">
-                {meet.competition.name}
-              </Link>
-            </CardTitle>
-            {meet.competition.certified ? <Badge variant="outline">공인</Badge> : null}
-          </div>
-          <CardDescription>
-            {formatDateRange(meet.competition.startDate, meet.competition.endDate)} ·{" "}
-            {meet.competition.venue}
-          </CardDescription>
-        </CardHeader>
-        <CardContent className="text-sm text-muted-foreground">
-          종목 {meet.eventCount} · 선수 {meet.athleteCount} · 기록 {meet.resultCount}
-        </CardContent>
-      </Card>
+      {meets.map((meet) => (
+        <Card key={meet.competition.id}>
+          <CardHeader>
+            <div className="flex items-center gap-2">
+              <CardTitle>
+                <Link href={`/meets/${meet.competition.id}`} className="hover:underline">
+                  {meet.competition.name}
+                </Link>
+              </CardTitle>
+              {meet.competition.certified ? <Badge variant="outline">공인</Badge> : null}
+            </div>
+            <CardDescription>
+              {formatDateRange(meet.competition.startDate, meet.competition.endDate)} ·{" "}
+              {meet.competition.venue}
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="text-sm text-muted-foreground">
+            종목 {meet.eventCount} · 선수 {meet.athleteCount} · 기록 {meet.resultCount}
+          </CardContent>
+        </Card>
+      ))}
     </main>
   );
 }

@@ -4,7 +4,7 @@ import { Suspense } from "react";
 
 import { MeetExplorer } from "@/components/records/meet-explorer";
 import { Badge } from "@/components/ui/badge";
-import { competition, listEvents, rows } from "@/lib/records/catalog";
+import { getMeet } from "@/lib/records/catalog";
 import { decodeRouteId, formatDateRange, parseDivision } from "@/lib/records/labels";
 
 export default function MeetPage({
@@ -29,10 +29,10 @@ async function MeetContent({
   searchParams: Promise<{ event?: string; division?: string }>;
 }) {
   const { id } = await params;
-  if (decodeRouteId(id) !== competition.id) notFound();
+  const meet = getMeet(decodeRouteId(id));
+  if (!meet) notFound();
   const { event, division } = await searchParams;
-  const events = listEvents();
-  const eventId = events.some((item) => item.id === event) ? event : events[0]?.id;
+  const eventId = meet.events.some((item) => item.id === event) ? event : meet.events[0]?.id;
 
   return (
     <main className="flex min-w-0 flex-col gap-6">
@@ -41,16 +41,17 @@ async function MeetContent({
           대회
         </Link>
         <div className="flex flex-wrap items-center gap-2">
-          <h1 className="font-heading text-3xl font-medium">{competition.name}</h1>
-          <Badge variant="outline">공인</Badge>
+          <h1 className="font-heading text-3xl font-medium">{meet.competition.name}</h1>
+          {meet.competition.certified ? <Badge variant="outline">공인</Badge> : null}
         </div>
         <p className="text-sm text-muted-foreground">
-          {formatDateRange(competition.startDate, competition.endDate)} · {competition.venue}
+          {formatDateRange(meet.competition.startDate, meet.competition.endDate)} ·{" "}
+          {meet.competition.venue}
         </p>
       </div>
       <MeetExplorer
-        events={events}
-        rows={rows}
+        events={meet.events}
+        rows={meet.rows}
         eventId={eventId}
         division={parseDivision(division)}
         syncToUrl
