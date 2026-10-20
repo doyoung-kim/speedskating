@@ -1,0 +1,2978 @@
+{
+  "2026-10-15-F-1500-1-ath-박지우-aff-강원특별자치도청-강원": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "27.01",
+      "lapDisplay": "27.01"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "57.12",
+      "lapDisplay": "30.11"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:28.25",
+      "lapDisplay": "31.13"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:01.04",
+      "lapDisplay": "32.79"
+    }
+  ],
+  "2026-10-15-F-1500-10-ath-안경인-aff-의정부여자중학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "27.72",
+      "lapDisplay": "27.72"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "59.13",
+      "lapDisplay": "31.41"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:33.26",
+      "lapDisplay": "34.13"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:09.97",
+      "lapDisplay": "36.71"
+    }
+  ],
+  "2026-10-15-F-1500-11-ath-전서현-aff-의정부여자중학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "28.55",
+      "lapDisplay": "28.55"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:00.89",
+      "lapDisplay": "32.34"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:35.10",
+      "lapDisplay": "34.21"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:10.90",
+      "lapDisplay": "35.80"
+    }
+  ],
+  "2026-10-15-F-1500-13-ath-박은경-aff-의정부여자고등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "28.73",
+      "lapDisplay": "28.73"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:00.34",
+      "lapDisplay": "31.61"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:34.90",
+      "lapDisplay": "34.56"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:11.45",
+      "lapDisplay": "36.55"
+    }
+  ],
+  "2026-10-15-F-1500-14-ath-김지연-aff-명지대학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "27.64",
+      "lapDisplay": "27.64"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "59.44",
+      "lapDisplay": "31.80"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:33.82",
+      "lapDisplay": "34.38"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:11.54",
+      "lapDisplay": "37.72"
+    }
+  ],
+  "2026-10-15-F-1500-15-ath-조주원-aff-강명중학교-서울": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "28.88",
+      "lapDisplay": "28.88"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:01.88",
+      "lapDisplay": "33.00"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:36.87",
+      "lapDisplay": "34.99"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:12.56",
+      "lapDisplay": "35.69"
+    }
+  ],
+  "2026-10-15-F-1500-16-ath-김현명-aff-usc-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "28.42",
+      "lapDisplay": "28.42"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:00.95",
+      "lapDisplay": "32.53"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:35.91",
+      "lapDisplay": "34.96"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:12.86",
+      "lapDisplay": "36.95"
+    }
+  ],
+  "2026-10-15-F-1500-17-ath-오정선-aff-의정부여자중학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "29.11",
+      "lapDisplay": "29.11"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:01.85",
+      "lapDisplay": "32.74"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:36.51",
+      "lapDisplay": "34.66"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:13.10",
+      "lapDisplay": "36.59"
+    }
+  ],
+  "2026-10-15-F-1500-18-ath-박서현-aff-서현고등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "27.98",
+      "lapDisplay": "27.98"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:00.74",
+      "lapDisplay": "32.76"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:36.04",
+      "lapDisplay": "35.30"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:14.09",
+      "lapDisplay": "38.05"
+    }
+  ],
+  "2026-10-15-F-1500-19-ath-박정-aff-서현중학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "29.55",
+      "lapDisplay": "29.55"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:03.01",
+      "lapDisplay": "33.46"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:38.13",
+      "lapDisplay": "35.12"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:15.22",
+      "lapDisplay": "37.09"
+    }
+  ],
+  "2026-10-15-F-1500-2-ath-임리원-aff-한국체육대학교-서울": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "27.64",
+      "lapDisplay": "27.64"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "58.21",
+      "lapDisplay": "30.57"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:30.35",
+      "lapDisplay": "32.14"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:03.99",
+      "lapDisplay": "33.64"
+    }
+  ],
+  "2026-10-15-F-1500-21-ath-최승아-aff-강원체육중학교-강원": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "28.53",
+      "lapDisplay": "28.53"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:01.34",
+      "lapDisplay": "32.81"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:37.62",
+      "lapDisplay": "36.28"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:15.94",
+      "lapDisplay": "38.32"
+    }
+  ],
+  "2026-10-15-F-1500-22-ath-김단아-aff-금성초등학교-서울": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "29.65",
+      "lapDisplay": "29.65"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:04.02",
+      "lapDisplay": "34.37"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:40.49",
+      "lapDisplay": "36.47"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:17.63",
+      "lapDisplay": "37.14"
+    }
+  ],
+  "2026-10-15-F-1500-23-ath-김서현-aff-노원고등학교-서울": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "28.53",
+      "lapDisplay": "28.53"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:00.54",
+      "lapDisplay": "32.01"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:37.05",
+      "lapDisplay": "36.51"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:17.68",
+      "lapDisplay": "40.63"
+    }
+  ],
+  "2026-10-15-F-1500-25-ath-김지음-aff-노원고등학교-서울": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "28.49",
+      "lapDisplay": "28.49"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:00.99",
+      "lapDisplay": "32.50"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:37.88",
+      "lapDisplay": "36.89"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:18.05",
+      "lapDisplay": "40.17"
+    }
+  ],
+  "2026-10-15-F-1500-26-ath-홍서이-aff-죽전중학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "29.57",
+      "lapDisplay": "29.57"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:03.70",
+      "lapDisplay": "34.13"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:39.71",
+      "lapDisplay": "36.01"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:18.30",
+      "lapDisplay": "38.59"
+    }
+  ],
+  "2026-10-15-F-1500-27-ath-한예지-aff-의정부여자고등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "27.50",
+      "lapDisplay": "27.50"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "59.00",
+      "lapDisplay": "31.50"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:36.22",
+      "lapDisplay": "37.22"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:19.11",
+      "lapDisplay": "42.89"
+    }
+  ],
+  "2026-10-15-F-1500-28-ath-홍서영-aff-한국삼육중학교-서울": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "29.97",
+      "lapDisplay": "29.97"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:04.99",
+      "lapDisplay": "35.02"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:41.97",
+      "lapDisplay": "36.98"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:19.31",
+      "lapDisplay": "37.34"
+    }
+  ],
+  "2026-10-15-F-1500-29-ath-김가연-aff-강원체육중학교-강원": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "30.29",
+      "lapDisplay": "30.29"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:04.92",
+      "lapDisplay": "34.63"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:41.79",
+      "lapDisplay": "36.87"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:19.32",
+      "lapDisplay": "37.53"
+    }
+  ],
+  "2026-10-15-F-1500-3-ath-허지안-aff-한국체육대학교-서울": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "27.48",
+      "lapDisplay": "27.48"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "57.82",
+      "lapDisplay": "30.34"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:30.17",
+      "lapDisplay": "32.35"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:04.86",
+      "lapDisplay": "34.69"
+    }
+  ],
+  "2026-10-15-F-1500-31-ath-윤솔비-aff-남양주덕송초등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "30.80",
+      "lapDisplay": "30.80"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:05.38",
+      "lapDisplay": "34.58"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:42.28",
+      "lapDisplay": "36.90"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:20.03",
+      "lapDisplay": "37.75"
+    }
+  ],
+  "2026-10-15-F-1500-34-ath-유은서-aff-의정부동암중학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "29.31",
+      "lapDisplay": "29.31"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:04.20",
+      "lapDisplay": "34.89"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:42.35",
+      "lapDisplay": "38.15"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:21.00",
+      "lapDisplay": "38.65"
+    }
+  ],
+  "2026-10-15-F-1500-35-ath-김다현-aff-고양제일중학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "28.46",
+      "lapDisplay": "28.46"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:02.80",
+      "lapDisplay": "34.34"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:41.03",
+      "lapDisplay": "38.23"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:21.16",
+      "lapDisplay": "40.13"
+    }
+  ],
+  "2026-10-15-F-1500-37-ath-이제인-aff-창덕여자고등학교-서울": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "30.10",
+      "lapDisplay": "30.10"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:03.40",
+      "lapDisplay": "33.30"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:40.96",
+      "lapDisplay": "37.56"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:21.94",
+      "lapDisplay": "40.98"
+    }
+  ],
+  "2026-10-15-F-1500-38-ath-김현아-aff-녹천중학교-서울": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "30.06",
+      "lapDisplay": "30.06"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:04.80",
+      "lapDisplay": "34.74"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:43.08",
+      "lapDisplay": "38.28"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:22.06",
+      "lapDisplay": "38.98"
+    }
+  ],
+  "2026-10-15-F-1500-39-ath-오정하-aff-의정부여자고등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "29.99",
+      "lapDisplay": "29.99"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:05.02",
+      "lapDisplay": "35.03"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:43.72",
+      "lapDisplay": "38.70"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:23.77",
+      "lapDisplay": "40.05"
+    }
+  ],
+  "2026-10-15-F-1500-4-ath-이하음-aff-갈매고등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "27.96",
+      "lapDisplay": "27.96"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "58.82",
+      "lapDisplay": "30.86"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:31.72",
+      "lapDisplay": "32.90"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:05.93",
+      "lapDisplay": "34.21"
+    }
+  ],
+  "2026-10-15-F-1500-40-ath-신지효-aff-usc-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "30.24",
+      "lapDisplay": "30.24"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "55.90",
+      "lapDisplay": "25.66"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:43.68",
+      "lapDisplay": "47.78"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:23.91",
+      "lapDisplay": "40.23"
+    }
+  ],
+  "2026-10-15-F-1500-41-ath-홍예서-aff-usc-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "30.95",
+      "lapDisplay": "30.95"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:06.47",
+      "lapDisplay": "35.52"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:44.47",
+      "lapDisplay": "38.00"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:24.51",
+      "lapDisplay": "40.04"
+    }
+  ],
+  "2026-10-15-F-1500-43-ath-강하윤-aff-피아이씨스포츠클럽-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "30.95",
+      "lapDisplay": "30.95"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:07.48",
+      "lapDisplay": "36.53"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:45.99",
+      "lapDisplay": "38.51"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:25.33",
+      "lapDisplay": "39.34"
+    }
+  ],
+  "2026-10-15-F-1500-45-ath-박린하-aff-퇴계초등학교-강원": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "30.80",
+      "lapDisplay": "30.80"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:07.19",
+      "lapDisplay": "36.39"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:45.58",
+      "lapDisplay": "38.39"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:25.84",
+      "lapDisplay": "40.26"
+    }
+  ],
+  "2026-10-15-F-1500-46-ath-구다연-aff-다산새봄초등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "31.08",
+      "lapDisplay": "31.08"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:07.41",
+      "lapDisplay": "36.33"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:46.25",
+      "lapDisplay": "38.84"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:25.88",
+      "lapDisplay": "39.63"
+    }
+  ],
+  "2026-10-15-F-1500-47-ath-이서연-aff-녹양초등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "31.14",
+      "lapDisplay": "31.14"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:07.64",
+      "lapDisplay": "36.50"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:46.50",
+      "lapDisplay": "38.86"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:26.37",
+      "lapDisplay": "39.87"
+    }
+  ],
+  "2026-10-15-F-1500-48-ath-정지원-aff-버들개초등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "30.82",
+      "lapDisplay": "30.82"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:07.96",
+      "lapDisplay": "37.14"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:47.02",
+      "lapDisplay": "39.06"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:26.46",
+      "lapDisplay": "39.44"
+    }
+  ],
+  "2026-10-15-F-1500-5-ath-김윤지-aff-동두천시청-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "27.11",
+      "lapDisplay": "27.11"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "57.84",
+      "lapDisplay": "30.73"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:31.17",
+      "lapDisplay": "33.33"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:06.73",
+      "lapDisplay": "35.56"
+    }
+  ],
+  "2026-10-15-F-1500-50-ath-김태린-aff-서울수리초등학교-서울": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "31.18",
+      "lapDisplay": "31.18"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:07.34",
+      "lapDisplay": "36.16"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:46.14",
+      "lapDisplay": "38.80"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:28.45",
+      "lapDisplay": "42.31"
+    }
+  ],
+  "2026-10-15-F-1500-51-ath-정예원-aff-미사강변중학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "30.21",
+      "lapDisplay": "30.21"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:07.32",
+      "lapDisplay": "37.11"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:47.87",
+      "lapDisplay": "40.55"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:28.61",
+      "lapDisplay": "40.74"
+    }
+  ],
+  "2026-10-15-F-1500-52-ath-천규림-aff-바른초등학교-세종": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "32.41",
+      "lapDisplay": "32.41"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:09.95",
+      "lapDisplay": "37.54"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:48.92",
+      "lapDisplay": "38.97"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:29.03",
+      "lapDisplay": "40.11"
+    }
+  ],
+  "2026-10-15-F-1500-53-ath-이혜원-aff-양평초등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "32.05",
+      "lapDisplay": "32.05"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:10.22",
+      "lapDisplay": "38.17"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:50.14",
+      "lapDisplay": "39.92"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:29.98",
+      "lapDisplay": "39.84"
+    }
+  ],
+  "2026-10-15-F-1500-54-ath-오채은-aff-남양주샛별초등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "30.60",
+      "lapDisplay": "30.60"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:07.13",
+      "lapDisplay": "36.53"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:48.04",
+      "lapDisplay": "40.91"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:30.90",
+      "lapDisplay": "42.86"
+    }
+  ],
+  "2026-10-15-F-1500-55-ath-김민채-aff-삼현초등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "32.12",
+      "lapDisplay": "32.12"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:10.82",
+      "lapDisplay": "38.70"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:51.01",
+      "lapDisplay": "40.19"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:31.19",
+      "lapDisplay": "40.18"
+    }
+  ],
+  "2026-10-15-F-1500-56-ath-주다엘-aff-갈매초등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "31.16",
+      "lapDisplay": "31.16"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:09.36",
+      "lapDisplay": "38.20"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:52.33",
+      "lapDisplay": "42.97"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:36.29",
+      "lapDisplay": "43.96"
+    }
+  ],
+  "2026-10-15-F-1500-6-ath-강수민-aff-서울시청-서울": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "26.94",
+      "lapDisplay": "26.94"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "57.19",
+      "lapDisplay": "30.25"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:30.69",
+      "lapDisplay": "33.50"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:07.20",
+      "lapDisplay": "36.51"
+    }
+  ],
+  "2026-10-15-F-1500-62-ath-김여름-aff-춘천교육대학교부설초등학교-강원": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "36.57",
+      "lapDisplay": "36.57"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:23.21",
+      "lapDisplay": "46.64"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "2:14.04",
+      "lapDisplay": "50.83"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "3:04.01",
+      "lapDisplay": "49.97"
+    }
+  ],
+  "2026-10-15-F-1500-63-ath-박소리-aff-춘천교육대학교부설초등학교-강원": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "37.86",
+      "lapDisplay": "37.86"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:27.60",
+      "lapDisplay": "49.74"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "2:19.27",
+      "lapDisplay": "51.67"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "3:11.36",
+      "lapDisplay": "52.09"
+    }
+  ],
+  "2026-10-15-F-1500-7-ath-임은송-aff-서현고등학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "27.74",
+      "lapDisplay": "27.74"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "58.98",
+      "lapDisplay": "31.24"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:32.66",
+      "lapDisplay": "33.68"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:08.37",
+      "lapDisplay": "35.71"
+    }
+  ],
+  "2026-10-15-F-1500-8-ath-차윤지-aff-별가람중학교-경기": [
+    {
+      "atMeters": 300,
+      "splitDisplay": "28.36",
+      "lapDisplay": "28.36"
+    },
+    {
+      "atMeters": 700,
+      "splitDisplay": "1:00.33",
+      "lapDisplay": "31.97"
+    },
+    {
+      "atMeters": 1100,
+      "splitDisplay": "1:34.03",
+      "lapDisplay": "33.70"
+    },
+    {
+      "atMeters": 1500,
+      "splitDisplay": "2:08.42",
+      "lapDisplay": "34.39"
+    }
+  ],
+  "2026-10-15-F-500-1-ath-이나현-aff-한국체육대학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.60",
+      "lapDisplay": "10.60"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "38.90",
+      "lapDisplay": "28.30"
+    }
+  ],
+  "2026-10-15-F-500-10-ath-구민채-aff-도농고등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.36",
+      "lapDisplay": "11.36"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "41.72",
+      "lapDisplay": "30.36"
+    }
+  ],
+  "2026-10-15-F-500-11-ath-박수연-aff-서현중학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.39",
+      "lapDisplay": "11.39"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "41.98",
+      "lapDisplay": "30.59"
+    }
+  ],
+  "2026-10-15-F-500-12-ath-정예진-aff-갈매중학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.60",
+      "lapDisplay": "11.60"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "42.23",
+      "lapDisplay": "30.63"
+    }
+  ],
+  "2026-10-15-F-500-13-ath-김희진-aff-경희사이버대학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.74",
+      "lapDisplay": "11.74"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "42.27",
+      "lapDisplay": "30.53"
+    }
+  ],
+  "2026-10-15-F-500-14-ath-민가람-aff-명지대학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.59",
+      "lapDisplay": "11.59"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "42.42",
+      "lapDisplay": "30.83"
+    }
+  ],
+  "2026-10-15-F-500-15-ath-윤채원-aff-춘천여자고등학교-강원": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.33",
+      "lapDisplay": "11.33"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "42.44",
+      "lapDisplay": "31.11"
+    }
+  ],
+  "2026-10-15-F-500-16-ath-최운서-aff-낙원중학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.54",
+      "lapDisplay": "11.54"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "42.53",
+      "lapDisplay": "30.99"
+    }
+  ],
+  "2026-10-15-F-500-17-ath-심수민-aff-남춘천여자중학교-강원": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.74",
+      "lapDisplay": "11.74"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "42.64",
+      "lapDisplay": "30.90"
+    }
+  ],
+  "2026-10-15-F-500-18-ath-홍다은-aff-위례중학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.72",
+      "lapDisplay": "11.72"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "42.65",
+      "lapDisplay": "30.93"
+    }
+  ],
+  "2026-10-15-F-500-19-ath-박서윤-aff-서울고현초등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.35",
+      "lapDisplay": "11.35"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "42.70",
+      "lapDisplay": "31.35"
+    }
+  ],
+  "2026-10-15-F-500-2-ath-정희단-aff-의정부시청-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.83",
+      "lapDisplay": "10.83"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "39.44",
+      "lapDisplay": "28.61"
+    }
+  ],
+  "2026-10-15-F-500-20-ath-김하엘-aff-다산한강중학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.86",
+      "lapDisplay": "11.86"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "42.89",
+      "lapDisplay": "31.03"
+    }
+  ],
+  "2026-10-15-F-500-21-ath-김시연-aff-하랑초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.76",
+      "lapDisplay": "11.76"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "43.39",
+      "lapDisplay": "31.63"
+    }
+  ],
+  "2026-10-15-F-500-22-ath-박연후-aff-중평중학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.87",
+      "lapDisplay": "11.87"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "43.99",
+      "lapDisplay": "32.12"
+    }
+  ],
+  "2026-10-15-F-500-23-ath-임주아-aff-usc-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.99",
+      "lapDisplay": "11.99"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "44.04",
+      "lapDisplay": "32.05"
+    }
+  ],
+  "2026-10-15-F-500-24-ath-서하윤-aff-은석초등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.67",
+      "lapDisplay": "11.67"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "44.30",
+      "lapDisplay": "32.63"
+    }
+  ],
+  "2026-10-15-F-500-25-ath-권태연-aff-풍천중학교-경북": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.92",
+      "lapDisplay": "11.92"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "45.16",
+      "lapDisplay": "33.24"
+    }
+  ],
+  "2026-10-15-F-500-26-ath-김소율-aff-노원고등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.14",
+      "lapDisplay": "12.14"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "45.24",
+      "lapDisplay": "33.10"
+    }
+  ],
+  "2026-10-15-F-500-27-ath-방예나-aff-신용산초등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.38",
+      "lapDisplay": "12.38"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "45.57",
+      "lapDisplay": "33.19"
+    }
+  ],
+  "2026-10-15-F-500-28-ath-안인서-aff-화접중학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.33",
+      "lapDisplay": "12.33"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "45.61",
+      "lapDisplay": "33.28"
+    }
+  ],
+  "2026-10-15-F-500-29-ath-김세인-aff-노원중학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.35",
+      "lapDisplay": "12.35"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "46.08",
+      "lapDisplay": "33.73"
+    }
+  ],
+  "2026-10-15-F-500-3-ath-이수연-aff-경희대학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.85",
+      "lapDisplay": "10.85"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "39.61",
+      "lapDisplay": "28.76"
+    }
+  ],
+  "2026-10-15-F-500-30-ath-노윤성-aff-양평초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.55",
+      "lapDisplay": "12.55"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "46.44",
+      "lapDisplay": "33.89"
+    }
+  ],
+  "2026-10-15-F-500-31-ath-정예원-aff-미사강변중학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.43",
+      "lapDisplay": "12.43"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "47.19",
+      "lapDisplay": "34.76"
+    }
+  ],
+  "2026-10-15-F-500-32-ath-구다연-aff-다산새봄초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.81",
+      "lapDisplay": "12.81"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "47.57",
+      "lapDisplay": "34.76"
+    }
+  ],
+  "2026-10-15-F-500-33-ath-천혜림-aff-도담고등학교-세종": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.87",
+      "lapDisplay": "12.87"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "47.58",
+      "lapDisplay": "34.71"
+    }
+  ],
+  "2026-10-15-F-500-34-ath-홍예원-aff-상암중학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.89",
+      "lapDisplay": "12.89"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "48.09",
+      "lapDisplay": "35.20"
+    }
+  ],
+  "2026-10-15-F-500-35-ath-이승아-aff-옥정호수초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.41",
+      "lapDisplay": "12.41"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "48.15",
+      "lapDisplay": "35.74"
+    }
+  ],
+  "2026-10-15-F-500-36-ath-최인혜-aff-분당영덕여자고등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.00",
+      "lapDisplay": "13.00"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "48.37",
+      "lapDisplay": "35.37"
+    }
+  ],
+  "2026-10-15-F-500-37-ath-이지우-aff-하남풍산초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.94",
+      "lapDisplay": "12.94"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "48.38",
+      "lapDisplay": "35.44"
+    }
+  ],
+  "2026-10-15-F-500-38-ath-박서아-aff-성남매송초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.54",
+      "lapDisplay": "12.54"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "48.67",
+      "lapDisplay": "36.13"
+    }
+  ],
+  "2026-10-15-F-500-39-ath-이혜원-aff-양평초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.16",
+      "lapDisplay": "13.16"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "49.06",
+      "lapDisplay": "35.90"
+    }
+  ],
+  "2026-10-15-F-500-4-ath-김민지-aff-화성시청-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.02",
+      "lapDisplay": "11.02"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "39.98",
+      "lapDisplay": "28.96"
+    }
+  ],
+  "2026-10-15-F-500-40-ath-손윤비-aff-상원여자중학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.46",
+      "lapDisplay": "13.46"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "50.29",
+      "lapDisplay": "36.83"
+    }
+  ],
+  "2026-10-15-F-500-41-ath-강지안-aff-신장초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.52",
+      "lapDisplay": "13.52"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "52.01",
+      "lapDisplay": "38.49"
+    }
+  ],
+  "2026-10-15-F-500-42-ath-노하민-aff-금병초등학교-강원": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.11",
+      "lapDisplay": "13.11"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "52.20",
+      "lapDisplay": "39.09"
+    }
+  ],
+  "2026-10-15-F-500-43-ath-김율희-aff-옥빛초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.51",
+      "lapDisplay": "13.51"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "54.59",
+      "lapDisplay": "41.08"
+    }
+  ],
+  "2026-10-15-F-500-44-ath-정소리-aff-서울새솔초등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.45",
+      "lapDisplay": "13.45"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "54.91",
+      "lapDisplay": "41.46"
+    }
+  ],
+  "2026-10-15-F-500-45-ath-이은우-aff-금성초등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.98",
+      "lapDisplay": "13.98"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "56.26",
+      "lapDisplay": "42.28"
+    }
+  ],
+  "2026-10-15-F-500-46-ath-김소예-aff-토평초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "14.14",
+      "lapDisplay": "14.14"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "56.90",
+      "lapDisplay": "42.76"
+    }
+  ],
+  "2026-10-15-F-500-47-ath-김여름-aff-춘천교육대학교부설초등학교-강원": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "14.55",
+      "lapDisplay": "14.55"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "57.00",
+      "lapDisplay": "42.45"
+    }
+  ],
+  "2026-10-15-F-500-48-ath-조수민-aff-양평초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.27",
+      "lapDisplay": "12.27"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "57.07",
+      "lapDisplay": "44.80"
+    }
+  ],
+  "2026-10-15-F-500-49-ath-신시아-aff-춘천교육대학교부설초등학교-강원": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "14.26",
+      "lapDisplay": "14.26"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "57.80",
+      "lapDisplay": "43.54"
+    }
+  ],
+  "2026-10-15-F-500-5-ath-이제인-aff-경희대학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.01",
+      "lapDisplay": "11.01"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "40.28",
+      "lapDisplay": "29.27"
+    }
+  ],
+  "2026-10-15-F-500-50-ath-이나은-aff-정교초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "14.46",
+      "lapDisplay": "14.46"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "58.32",
+      "lapDisplay": "43.86"
+    }
+  ],
+  "2026-10-15-F-500-51-ath-전해서-aff-남춘천초등학교-강원": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "15.13",
+      "lapDisplay": "15.13"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "58.78",
+      "lapDisplay": "43.65"
+    }
+  ],
+  "2026-10-15-F-500-52-ath-황준희-aff-춘천교육대학교부설초등학교-강원": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "14.63",
+      "lapDisplay": "14.63"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "58.93",
+      "lapDisplay": "44.30"
+    }
+  ],
+  "2026-10-15-F-500-53-ath-이시연-aff-금병초등학교-강원": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "14.99",
+      "lapDisplay": "14.99"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "59.98",
+      "lapDisplay": "44.99"
+    }
+  ],
+  "2026-10-15-F-500-6-ath-박세진-aff-의정부여자고등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.89",
+      "lapDisplay": "10.89"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "41.12",
+      "lapDisplay": "30.23"
+    }
+  ],
+  "2026-10-15-F-500-7-ath-정현서-aff-고려대학교-세종": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.42",
+      "lapDisplay": "11.42"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "41.19",
+      "lapDisplay": "29.77"
+    }
+  ],
+  "2026-10-15-F-500-8-ath-장소율-aff-의정부여자고등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.39",
+      "lapDisplay": "11.39"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "41.49",
+      "lapDisplay": "30.10"
+    }
+  ],
+  "2026-10-15-F-500-9-ath-최인아-aff-잠신고등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.25",
+      "lapDisplay": "11.25"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "41.51",
+      "lapDisplay": "30.26"
+    }
+  ],
+  "2026-10-15-M-500-10-ath-황우솔-aff-노원고등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.28",
+      "lapDisplay": "10.28"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "36.91",
+      "lapDisplay": "26.63"
+    }
+  ],
+  "2026-10-15-M-500-11-ath-조영준-aff-서울시청-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.15",
+      "lapDisplay": "10.15"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "37.05",
+      "lapDisplay": "26.90"
+    }
+  ],
+  "2026-10-15-M-500-12-ath-윤재현-aff-경희사이버대학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.09",
+      "lapDisplay": "10.09"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "37.14",
+      "lapDisplay": "27.05"
+    }
+  ],
+  "2026-10-15-M-500-13-ath-박여준-aff-동두천고등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.49",
+      "lapDisplay": "10.49"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "37.17",
+      "lapDisplay": "26.68"
+    }
+  ],
+  "2026-10-15-M-500-14-ath-차민규-aff-동두천시청-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.37",
+      "lapDisplay": "10.37"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "37.20",
+      "lapDisplay": "26.83"
+    }
+  ],
+  "2026-10-15-M-500-15-ath-황성민-aff-한국스포츠레저주식회사(스포츠토토빙상단-인천": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.52",
+      "lapDisplay": "10.52"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "37.25",
+      "lapDisplay": "26.73"
+    }
+  ],
+  "2026-10-15-M-500-16-ath-허석-aff-한국체육대학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.35",
+      "lapDisplay": "10.35"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "37.31",
+      "lapDisplay": "26.96"
+    }
+  ],
+  "2026-10-15-M-500-17-ath-이준서-aff-단국대학교-충남": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.51",
+      "lapDisplay": "10.51"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "37.58",
+      "lapDisplay": "27.07"
+    }
+  ],
+  "2026-10-15-M-500-18-ath-김태윤-aff-서울시청-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.26",
+      "lapDisplay": "10.26"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "37.60",
+      "lapDisplay": "27.34"
+    }
+  ],
+  "2026-10-15-M-500-19-ath-이준표-aff-평내고등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.60",
+      "lapDisplay": "10.60"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "38.01",
+      "lapDisplay": "27.41"
+    }
+  ],
+  "2026-10-15-M-500-20-ath-온승민-aff-의정부고등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.64",
+      "lapDisplay": "10.64"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "38.44",
+      "lapDisplay": "27.80"
+    }
+  ],
+  "2026-10-15-M-500-21-ath-전정휴-aff-서울동산고등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.51",
+      "lapDisplay": "10.51"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "38.46",
+      "lapDisplay": "27.95"
+    }
+  ],
+  "2026-10-15-M-500-22-ath-김두현-aff-usc-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.80",
+      "lapDisplay": "10.80"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "38.47",
+      "lapDisplay": "27.67"
+    }
+  ],
+  "2026-10-15-M-500-23-ath-윤정우-aff-서현고등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.51",
+      "lapDisplay": "10.51"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "38.58",
+      "lapDisplay": "28.07"
+    }
+  ],
+  "2026-10-15-M-500-24-ath-반형진-aff-경희사이버대학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.62",
+      "lapDisplay": "10.62"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "38.96",
+      "lapDisplay": "28.34"
+    }
+  ],
+  "2026-10-15-M-500-25-ath-김범준-aff-길주중학교-경북": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.72",
+      "lapDisplay": "10.72"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "39.02",
+      "lapDisplay": "28.30"
+    }
+  ],
+  "2026-10-15-M-500-27-ath-윤지환-aff-별가람중학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.07",
+      "lapDisplay": "11.07"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "39.34",
+      "lapDisplay": "28.27"
+    }
+  ],
+  "2026-10-15-M-500-28-ath-김민건-aff-송곡고등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.33",
+      "lapDisplay": "11.33"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "40.32",
+      "lapDisplay": "28.99"
+    }
+  ],
+  "2026-10-15-M-500-29-ath-방건우-aff-광장중학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.10",
+      "lapDisplay": "11.10"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "40.40",
+      "lapDisplay": "29.30"
+    }
+  ],
+  "2026-10-15-M-500-30-ath-장현우-aff-동원중학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.97",
+      "lapDisplay": "10.97"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "40.71",
+      "lapDisplay": "29.74"
+    }
+  ],
+  "2026-10-15-M-500-31-ath-배은총-aff-서현중학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.00",
+      "lapDisplay": "11.00"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "40.81",
+      "lapDisplay": "29.81"
+    }
+  ],
+  "2026-10-15-M-500-32-ath-이준우-aff-usc-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.31",
+      "lapDisplay": "11.31"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "41.73",
+      "lapDisplay": "30.42"
+    }
+  ],
+  "2026-10-15-M-500-34-ath-박정후-aff-당촌초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.31",
+      "lapDisplay": "11.31"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "41.87",
+      "lapDisplay": "30.56"
+    }
+  ],
+  "2026-10-15-M-500-35-ath-최병인-aff-서울일반-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.23",
+      "lapDisplay": "11.23"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "42.89",
+      "lapDisplay": "31.66"
+    }
+  ],
+  "2026-10-15-M-500-36-ath-정성원-aff-동두천고등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.30",
+      "lapDisplay": "12.30"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "43.58",
+      "lapDisplay": "31.28"
+    }
+  ],
+  "2026-10-15-M-500-37-ath-이주원-aff-양평초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "11.96",
+      "lapDisplay": "11.96"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "44.11",
+      "lapDisplay": "32.15"
+    }
+  ],
+  "2026-10-15-M-500-38-ath-김다운-aff-양평초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.09",
+      "lapDisplay": "12.09"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "44.47",
+      "lapDisplay": "32.38"
+    }
+  ],
+  "2026-10-15-M-500-39-ath-손은준-aff-은석초등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.02",
+      "lapDisplay": "12.02"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "44.73",
+      "lapDisplay": "32.71"
+    }
+  ],
+  "2026-10-15-M-500-40-ath-이준서-aff-버들개초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.20",
+      "lapDisplay": "12.20"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "45.29",
+      "lapDisplay": "33.09"
+    }
+  ],
+  "2026-10-15-M-500-41-ath-음지웅-aff-양평초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.50",
+      "lapDisplay": "12.50"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "45.73",
+      "lapDisplay": "33.23"
+    }
+  ],
+  "2026-10-15-M-500-42-ath-최재원-aff-한국체육대학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.38",
+      "lapDisplay": "12.38"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "45.76",
+      "lapDisplay": "33.38"
+    }
+  ],
+  "2026-10-15-M-500-43-ath-이이든-aff-금성초등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.56",
+      "lapDisplay": "12.56"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "46.72",
+      "lapDisplay": "34.16"
+    }
+  ],
+  "2026-10-15-M-500-44-ath-이태율-aff-버들개초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.43",
+      "lapDisplay": "12.43"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "47.26",
+      "lapDisplay": "34.83"
+    }
+  ],
+  "2026-10-15-M-500-45-ath-문우영-aff-주곡초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.24",
+      "lapDisplay": "12.24"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "47.62",
+      "lapDisplay": "35.38"
+    }
+  ],
+  "2026-10-15-M-500-46-ath-최이안-aff-남양주샛별초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.56",
+      "lapDisplay": "12.56"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "47.82",
+      "lapDisplay": "35.26"
+    }
+  ],
+  "2026-10-15-M-500-47-ath-조수혁-aff-양평초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.67",
+      "lapDisplay": "12.67"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "48.06",
+      "lapDisplay": "35.39"
+    }
+  ],
+  "2026-10-15-M-500-48-ath-허주호-aff-가곡초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.71",
+      "lapDisplay": "12.71"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "48.21",
+      "lapDisplay": "35.50"
+    }
+  ],
+  "2026-10-15-M-500-49-ath-임지완-aff-신현초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.66",
+      "lapDisplay": "12.66"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "48.62",
+      "lapDisplay": "35.96"
+    }
+  ],
+  "2026-10-15-M-500-5-ath-권수인-aff-서울시청-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.05",
+      "lapDisplay": "10.05"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "36.48",
+      "lapDisplay": "26.43"
+    }
+  ],
+  "2026-10-15-M-500-50-ath-서하진-aff-은석초등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.37",
+      "lapDisplay": "12.37"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "48.70",
+      "lapDisplay": "36.33"
+    }
+  ],
+  "2026-10-15-M-500-51-ath-문지후-aff-낙생초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.24",
+      "lapDisplay": "13.24"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "49.20",
+      "lapDisplay": "35.96"
+    }
+  ],
+  "2026-10-15-M-500-52-ath-음지훈-aff-양평초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "12.93",
+      "lapDisplay": "12.93"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "49.62",
+      "lapDisplay": "36.69"
+    }
+  ],
+  "2026-10-15-M-500-54-ath-유하진-aff-금병초등학교-강원": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.04",
+      "lapDisplay": "13.04"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "50.27",
+      "lapDisplay": "37.23"
+    }
+  ],
+  "2026-10-15-M-500-55-ath-노태곤-aff-양평초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.26",
+      "lapDisplay": "13.26"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "50.95",
+      "lapDisplay": "37.69"
+    }
+  ],
+  "2026-10-15-M-500-56-ath-윤건-aff-다산한강초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.17",
+      "lapDisplay": "13.17"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "51.49",
+      "lapDisplay": "38.32"
+    }
+  ],
+  "2026-10-15-M-500-57-ath-정찬민-aff-춘천교육대학교부설초등학교-강원": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.26",
+      "lapDisplay": "13.26"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "51.83",
+      "lapDisplay": "38.57"
+    }
+  ],
+  "2026-10-15-M-500-58-ath-김태서-aff-금병초등학교-강원": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.24",
+      "lapDisplay": "13.24"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "52.73",
+      "lapDisplay": "39.49"
+    }
+  ],
+  "2026-10-15-M-500-59-ath-이윤찬-aff-금성초등학교-서울": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "13.00",
+      "lapDisplay": "13.00"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "53.77",
+      "lapDisplay": "40.77"
+    }
+  ],
+  "2026-10-15-M-500-6-ath-장서진-aff-한국스포츠레저주식회사(스포츠토토빙상단-인천": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.06",
+      "lapDisplay": "10.06"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "36.56",
+      "lapDisplay": "26.50"
+    }
+  ],
+  "2026-10-15-M-500-60-ath-정하람-aff-가능초등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "14.09",
+      "lapDisplay": "14.09"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "54.18",
+      "lapDisplay": "40.09"
+    }
+  ],
+  "2026-10-15-M-500-7-ath-이준범-aff-별내고등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.28",
+      "lapDisplay": "10.28"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "36.61",
+      "lapDisplay": "26.33"
+    }
+  ],
+  "2026-10-15-M-500-8-ath-박종혁-aff-강원특별자치도청-강원": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.27",
+      "lapDisplay": "10.27"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "36.85",
+      "lapDisplay": "26.58"
+    }
+  ],
+  "2026-10-15-M-500-9-ath-용윤성-aff-평촌고등학교-경기": [
+    {
+      "atMeters": 100,
+      "splitDisplay": "10.54",
+      "lapDisplay": "10.54"
+    },
+    {
+      "atMeters": 500,
+      "splitDisplay": "36.87",
+      "lapDisplay": "26.33"
+    }
+  ],
+  "2026-10-15-M-5000-10-ath-정지우-aff-의정부고등학교-경기": [
+    {
+      "atMeters": 200,
+      "splitDisplay": "21.65",
+      "lapDisplay": "21.65"
+    },
+    {
+      "atMeters": 600,
+      "splitDisplay": "54.98",
+      "lapDisplay": "33.33"
+    },
+    {
+      "atMeters": 1000,
+      "splitDisplay": "1:28.96",
+      "lapDisplay": "33.98"
+    },
+    {
+      "atMeters": 1400,
+      "splitDisplay": "2:02.52",
+      "lapDisplay": "33.56"
+    },
+    {
+      "atMeters": 1800,
+      "splitDisplay": "2:36.36",
+      "lapDisplay": "33.84"
+    },
+    {
+      "atMeters": 2200,
+      "splitDisplay": "3:10.29",
+      "lapDisplay": "33.93"
+    },
+    {
+      "atMeters": 2600,
+      "splitDisplay": "3:44.01",
+      "lapDisplay": "33.72"
+    },
+    {
+      "atMeters": 3000,
+      "splitDisplay": "4:17.68",
+      "lapDisplay": "33.67"
+    },
+    {
+      "atMeters": 3400,
+      "splitDisplay": "4:52.03",
+      "lapDisplay": "34.35"
+    },
+    {
+      "atMeters": 3800,
+      "splitDisplay": "5:26.62",
+      "lapDisplay": "34.59"
+    },
+    {
+      "atMeters": 4200,
+      "splitDisplay": "6:01.28",
+      "lapDisplay": "34.66"
+    },
+    {
+      "atMeters": 4600,
+      "splitDisplay": "6:36.00",
+      "lapDisplay": "34.72"
+    },
+    {
+      "atMeters": 5000,
+      "splitDisplay": "7:10.34",
+      "lapDisplay": "34.34"
+    }
+  ],
+  "2026-10-15-M-5000-11-ath-박지관-aff-의정부고등학교-경기": [
+    {
+      "atMeters": 200,
+      "splitDisplay": "21.56",
+      "lapDisplay": "21.56"
+    },
+    {
+      "atMeters": 600,
+      "splitDisplay": "55.11",
+      "lapDisplay": "33.55"
+    },
+    {
+      "atMeters": 1000,
+      "splitDisplay": "1:29.09",
+      "lapDisplay": "33.98"
+    },
+    {
+      "atMeters": 1400,
+      "splitDisplay": "2:03.27",
+      "lapDisplay": "34.18"
+    },
+    {
+      "atMeters": 1800,
+      "splitDisplay": "2:37.18",
+      "lapDisplay": "33.91"
+    },
+    {
+      "atMeters": 2200,
+      "splitDisplay": "3:11.19",
+      "lapDisplay": "34.01"
+    },
+    {
+      "atMeters": 2600,
+      "splitDisplay": "3:45.23",
+      "lapDisplay": "34.04"
+    },
+    {
+      "atMeters": 3000,
+      "splitDisplay": "4:19.53",
+      "lapDisplay": "34.30"
+    },
+    {
+      "atMeters": 3400,
+      "splitDisplay": "4:54.10",
+      "lapDisplay": "34.57"
+    },
+    {
+      "atMeters": 3800,
+      "splitDisplay": "5:29.32",
+      "lapDisplay": "35.22"
+    },
+    {
+      "atMeters": 4200,
+      "splitDisplay": "6:04.99",
+      "lapDisplay": "35.67"
+    },
+    {
+      "atMeters": 4600,
+      "splitDisplay": "6:40.90",
+      "lapDisplay": "35.91"
+    },
+    {
+      "atMeters": 5000,
+      "splitDisplay": "7:16.73",
+      "lapDisplay": "35.83"
+    }
+  ],
+  "2026-10-15-M-5000-2-ath-김승겸-aff-서현고등학교-경기": [
+    {
+      "atMeters": 200,
+      "splitDisplay": "20.35",
+      "lapDisplay": "20.35"
+    },
+    {
+      "atMeters": 600,
+      "splitDisplay": "51.45",
+      "lapDisplay": "31.10"
+    },
+    {
+      "atMeters": 1000,
+      "splitDisplay": "1:22.27",
+      "lapDisplay": "30.82"
+    },
+    {
+      "atMeters": 1400,
+      "splitDisplay": "1:53.96",
+      "lapDisplay": "31.69"
+    },
+    {
+      "atMeters": 1800,
+      "splitDisplay": "2:24.90",
+      "lapDisplay": "30.94"
+    },
+    {
+      "atMeters": 2200,
+      "splitDisplay": "2:56.65",
+      "lapDisplay": "31.75"
+    },
+    {
+      "atMeters": 2600,
+      "splitDisplay": "3:27.86",
+      "lapDisplay": "31.21"
+    },
+    {
+      "atMeters": 3000,
+      "splitDisplay": "3:59.43",
+      "lapDisplay": "31.57"
+    },
+    {
+      "atMeters": 3400,
+      "splitDisplay": "4:30.83",
+      "lapDisplay": "31.40"
+    },
+    {
+      "atMeters": 3800,
+      "splitDisplay": "5:02.64",
+      "lapDisplay": "31.81"
+    },
+    {
+      "atMeters": 4200,
+      "splitDisplay": "5:34.03",
+      "lapDisplay": "31.39"
+    },
+    {
+      "atMeters": 4600,
+      "splitDisplay": "6:05.69",
+      "lapDisplay": "31.66"
+    },
+    {
+      "atMeters": 5000,
+      "splitDisplay": "6:37.34",
+      "lapDisplay": "31.65"
+    }
+  ],
+  "2026-10-15-M-5000-3-ath-조승민-aff-한국체육대학교-서울": [
+    {
+      "atMeters": 200,
+      "splitDisplay": "20.87",
+      "lapDisplay": "20.87"
+    },
+    {
+      "atMeters": 600,
+      "splitDisplay": "52.90",
+      "lapDisplay": "32.03"
+    },
+    {
+      "atMeters": 1000,
+      "splitDisplay": "1:26.34",
+      "lapDisplay": "33.44"
+    },
+    {
+      "atMeters": 1400,
+      "splitDisplay": "1:59.44",
+      "lapDisplay": "33.10"
+    },
+    {
+      "atMeters": 1800,
+      "splitDisplay": "2:32.81",
+      "lapDisplay": "33.37"
+    },
+    {
+      "atMeters": 2200,
+      "splitDisplay": "3:05.81",
+      "lapDisplay": "33.00"
+    },
+    {
+      "atMeters": 2600,
+      "splitDisplay": "3:38.54",
+      "lapDisplay": "32.73"
+    },
+    {
+      "atMeters": 3000,
+      "splitDisplay": "4:10.82",
+      "lapDisplay": "32.28"
+    },
+    {
+      "atMeters": 3400,
+      "splitDisplay": "4:43.61",
+      "lapDisplay": "32.79"
+    },
+    {
+      "atMeters": 3800,
+      "splitDisplay": "5:16.46",
+      "lapDisplay": "32.85"
+    },
+    {
+      "atMeters": 4200,
+      "splitDisplay": "5:48.79",
+      "lapDisplay": "32.33"
+    },
+    {
+      "atMeters": 4600,
+      "splitDisplay": "6:21.02",
+      "lapDisplay": "32.23"
+    },
+    {
+      "atMeters": 5000,
+      "splitDisplay": "6:54.41",
+      "lapDisplay": "33.39"
+    }
+  ],
+  "2026-10-15-M-5000-4-ath-이태성-aff-의정부중학교-경기": [
+    {
+      "atMeters": 200,
+      "splitDisplay": "20.92",
+      "lapDisplay": "20.92"
+    },
+    {
+      "atMeters": 600,
+      "splitDisplay": "52.65",
+      "lapDisplay": "31.73"
+    },
+    {
+      "atMeters": 1000,
+      "splitDisplay": "1:24.74",
+      "lapDisplay": "32.09"
+    },
+    {
+      "atMeters": 1400,
+      "splitDisplay": "1:57.19",
+      "lapDisplay": "32.45"
+    },
+    {
+      "atMeters": 1800,
+      "splitDisplay": "2:29.88",
+      "lapDisplay": "32.69"
+    },
+    {
+      "atMeters": 2200,
+      "splitDisplay": "3:02.31",
+      "lapDisplay": "32.43"
+    },
+    {
+      "atMeters": 2600,
+      "splitDisplay": "3:34.89",
+      "lapDisplay": "32.58"
+    },
+    {
+      "atMeters": 3000,
+      "splitDisplay": "4:07.67",
+      "lapDisplay": "32.78"
+    },
+    {
+      "atMeters": 3400,
+      "splitDisplay": "4:40.66",
+      "lapDisplay": "32.99"
+    },
+    {
+      "atMeters": 3800,
+      "splitDisplay": "5:13.95",
+      "lapDisplay": "33.29"
+    },
+    {
+      "atMeters": 4200,
+      "splitDisplay": "5:47.61",
+      "lapDisplay": "33.66"
+    },
+    {
+      "atMeters": 4600,
+      "splitDisplay": "6:21.31",
+      "lapDisplay": "33.70"
+    },
+    {
+      "atMeters": 5000,
+      "splitDisplay": "6:55.11",
+      "lapDisplay": "33.80"
+    }
+  ],
+  "2026-10-15-M-5000-5-ath-황서준-aff-의정부고등학교-경기": [
+    {
+      "atMeters": 200,
+      "splitDisplay": "20.96",
+      "lapDisplay": "20.96"
+    },
+    {
+      "atMeters": 600,
+      "splitDisplay": "53.21",
+      "lapDisplay": "32.25"
+    },
+    {
+      "atMeters": 1000,
+      "splitDisplay": "1:25.78",
+      "lapDisplay": "32.57"
+    },
+    {
+      "atMeters": 1400,
+      "splitDisplay": "1:58.70",
+      "lapDisplay": "32.92"
+    },
+    {
+      "atMeters": 1800,
+      "splitDisplay": "2:31.95",
+      "lapDisplay": "33.25"
+    },
+    {
+      "atMeters": 2200,
+      "splitDisplay": "3:04.77",
+      "lapDisplay": "32.82"
+    },
+    {
+      "atMeters": 2600,
+      "splitDisplay": "3:37.72",
+      "lapDisplay": "32.95"
+    },
+    {
+      "atMeters": 3000,
+      "splitDisplay": "4:10.95",
+      "lapDisplay": "33.23"
+    },
+    {
+      "atMeters": 3400,
+      "splitDisplay": "4:44.02",
+      "lapDisplay": "33.07"
+    },
+    {
+      "atMeters": 3800,
+      "splitDisplay": "5:17.38",
+      "lapDisplay": "33.36"
+    },
+    {
+      "atMeters": 4200,
+      "splitDisplay": "5:50.35",
+      "lapDisplay": "32.97"
+    },
+    {
+      "atMeters": 4600,
+      "splitDisplay": "6:23.22",
+      "lapDisplay": "32.87"
+    },
+    {
+      "atMeters": 5000,
+      "splitDisplay": "6:56.21",
+      "lapDisplay": "32.99"
+    }
+  ],
+  "2026-10-15-M-5000-6-ath-김범-aff-덕현고등학교-경기": [
+    {
+      "atMeters": 200,
+      "splitDisplay": "20.55",
+      "lapDisplay": "20.55"
+    },
+    {
+      "atMeters": 600,
+      "splitDisplay": "52.40",
+      "lapDisplay": "31.85"
+    },
+    {
+      "atMeters": 1000,
+      "splitDisplay": "1:24.70",
+      "lapDisplay": "32.30"
+    },
+    {
+      "atMeters": 1400,
+      "splitDisplay": "1:58.06",
+      "lapDisplay": "33.36"
+    },
+    {
+      "atMeters": 1800,
+      "splitDisplay": "2:31.15",
+      "lapDisplay": "33.09"
+    },
+    {
+      "atMeters": 2200,
+      "splitDisplay": "3:04.49",
+      "lapDisplay": "33.34"
+    },
+    {
+      "atMeters": 2600,
+      "splitDisplay": "3:37.98",
+      "lapDisplay": "33.49"
+    },
+    {
+      "atMeters": 3000,
+      "splitDisplay": "4:11.82",
+      "lapDisplay": "33.84"
+    },
+    {
+      "atMeters": 3400,
+      "splitDisplay": "4:45.36",
+      "lapDisplay": "33.54"
+    },
+    {
+      "atMeters": 3800,
+      "splitDisplay": "5:18.95",
+      "lapDisplay": "33.59"
+    },
+    {
+      "atMeters": 4200,
+      "splitDisplay": "5:52.19",
+      "lapDisplay": "33.24"
+    },
+    {
+      "atMeters": 4600,
+      "splitDisplay": "6:25.72",
+      "lapDisplay": "33.53"
+    },
+    {
+      "atMeters": 5000,
+      "splitDisplay": "6:58.95",
+      "lapDisplay": "33.23"
+    }
+  ],
+  "2026-10-15-M-5000-7-ath-최재혁-aff-경희대학교-경기": [
+    {
+      "atMeters": 200,
+      "splitDisplay": "20.49",
+      "lapDisplay": "20.49"
+    },
+    {
+      "atMeters": 600,
+      "splitDisplay": "52.31",
+      "lapDisplay": "31.82"
+    },
+    {
+      "atMeters": 1000,
+      "splitDisplay": "1:24.32",
+      "lapDisplay": "32.01"
+    },
+    {
+      "atMeters": 1400,
+      "splitDisplay": "1:56.90",
+      "lapDisplay": "32.58"
+    },
+    {
+      "atMeters": 1800,
+      "splitDisplay": "2:29.28",
+      "lapDisplay": "32.38"
+    },
+    {
+      "atMeters": 2200,
+      "splitDisplay": "3:02.07",
+      "lapDisplay": "32.79"
+    },
+    {
+      "atMeters": 2600,
+      "splitDisplay": "3:35.02",
+      "lapDisplay": "32.95"
+    },
+    {
+      "atMeters": 3000,
+      "splitDisplay": "4:08.64",
+      "lapDisplay": "33.62"
+    },
+    {
+      "atMeters": 3400,
+      "splitDisplay": "4:42.46",
+      "lapDisplay": "33.82"
+    },
+    {
+      "atMeters": 3800,
+      "splitDisplay": "5:17.15",
+      "lapDisplay": "34.69"
+    },
+    {
+      "atMeters": 4200,
+      "splitDisplay": "5:51.75",
+      "lapDisplay": "34.60"
+    },
+    {
+      "atMeters": 4600,
+      "splitDisplay": "6:26.03",
+      "lapDisplay": "34.28"
+    },
+    {
+      "atMeters": 5000,
+      "splitDisplay": "7:01.25",
+      "lapDisplay": "35.22"
+    }
+  ],
+  "2026-10-15-M-5000-8-ath-박광훈-aff-단국대학교-충남": [
+    {
+      "atMeters": 200,
+      "splitDisplay": "20.35",
+      "lapDisplay": "20.35"
+    },
+    {
+      "atMeters": 600,
+      "splitDisplay": "52.55",
+      "lapDisplay": "32.20"
+    },
+    {
+      "atMeters": 1000,
+      "splitDisplay": "1:24.77",
+      "lapDisplay": "32.22"
+    },
+    {
+      "atMeters": 1400,
+      "splitDisplay": "1:57.49",
+      "lapDisplay": "32.72"
+    },
+    {
+      "atMeters": 1800,
+      "splitDisplay": "2:30.22",
+      "lapDisplay": "32.73"
+    },
+    {
+      "atMeters": 2200,
+      "splitDisplay": "3:03.10",
+      "lapDisplay": "32.88"
+    },
+    {
+      "atMeters": 2600,
+      "splitDisplay": "3:36.38",
+      "lapDisplay": "33.28"
+    },
+    {
+      "atMeters": 3000,
+      "splitDisplay": "4:10.11",
+      "lapDisplay": "33.73"
+    },
+    {
+      "atMeters": 3400,
+      "splitDisplay": "4:43.91",
+      "lapDisplay": "33.80"
+    },
+    {
+      "atMeters": 3800,
+      "splitDisplay": "5:18.17",
+      "lapDisplay": "34.26"
+    },
+    {
+      "atMeters": 4200,
+      "splitDisplay": "5:52.79",
+      "lapDisplay": "34.62"
+    },
+    {
+      "atMeters": 4600,
+      "splitDisplay": "6:27.63",
+      "lapDisplay": "34.84"
+    },
+    {
+      "atMeters": 5000,
+      "splitDisplay": "7:03.00",
+      "lapDisplay": "35.37"
+    }
+  ],
+  "2026-10-15-M-5000-9-ath-우재현-aff-서현고등학교-경기": [
+    {
+      "atMeters": 200,
+      "splitDisplay": "20.45",
+      "lapDisplay": "20.45"
+    },
+    {
+      "atMeters": 600,
+      "splitDisplay": "51.75",
+      "lapDisplay": "31.30"
+    },
+    {
+      "atMeters": 1000,
+      "splitDisplay": "1:24.01",
+      "lapDisplay": "32.26"
+    },
+    {
+      "atMeters": 1400,
+      "splitDisplay": "1:57.34",
+      "lapDisplay": "33.33"
+    },
+    {
+      "atMeters": 1800,
+      "splitDisplay": "2:30.76",
+      "lapDisplay": "33.42"
+    },
+    {
+      "atMeters": 2200,
+      "splitDisplay": "3:04.47",
+      "lapDisplay": "33.71"
+    },
+    {
+      "atMeters": 2600,
+      "splitDisplay": "3:38.43",
+      "lapDisplay": "33.96"
+    },
+    {
+      "atMeters": 3000,
+      "splitDisplay": "4:12.40",
+      "lapDisplay": "33.97"
+    },
+    {
+      "atMeters": 3400,
+      "splitDisplay": "4:46.52",
+      "lapDisplay": "34.12"
+    },
+    {
+      "atMeters": 3800,
+      "splitDisplay": "5:21.28",
+      "lapDisplay": "34.76"
+    },
+    {
+      "atMeters": 4200,
+      "splitDisplay": "5:56.08",
+      "lapDisplay": "34.80"
+    },
+    {
+      "atMeters": 4600,
+      "splitDisplay": "6:31.09",
+      "lapDisplay": "35.01"
+    },
+    {
+      "atMeters": 5000,
+      "splitDisplay": "7:06.02",
+      "lapDisplay": "34.93"
+    }
+  ]
+}

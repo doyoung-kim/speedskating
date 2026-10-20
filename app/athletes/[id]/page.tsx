@@ -2,11 +2,15 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 
+import { GrowthCharts } from "@/components/records/growth-charts";
+import { LapList } from "@/components/records/lap-list";
 import { ResultsTable } from "@/components/records/results-table";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { getAthlete } from "@/lib/records/catalog";
+import { getAthlete, rows } from "@/lib/records/catalog";
+import { growthSeriesFor } from "@/lib/records/growth";
 import { decodeRouteId, divisionLabel, genderLabel } from "@/lib/records/labels";
+import { averageSpeedLabel } from "@/lib/records/speed";
 
 export default function AthletePage({ params }: { params: Promise<{ id: string }> }) {
   return (
@@ -48,18 +52,34 @@ async function AthleteContent({ params }: { params: Promise<{ id: string }> }) {
       <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {[...bests.values()]
           .sort((a, b) => a.distance - b.distance)
-          .map((row) => (
+          .map((row) => {
+            const averageSpeed = averageSpeedLabel(row.distance, row.timeMs);
+            return (
             <Card key={`${row.gender}-${row.distance}`}>
               <CardHeader>
                 <CardTitle>
                   {genderLabel(row.gender)} {row.distance}m
                 </CardTitle>
               </CardHeader>
-              <CardContent className="text-2xl font-medium tabular-nums">{row.timeDisplay}</CardContent>
+              <CardContent>
+                <div className="flex items-baseline gap-4 tabular-nums">
+                  <p className="text-2xl font-medium">{row.timeDisplay}</p>
+                  {averageSpeed ? (
+                    <p className="text-base text-muted-foreground">{averageSpeed}</p>
+                  ) : null}
+                </div>
+                {row.laps && row.laps.length > 0 ? (
+                  <div className="mt-3">
+                    <LapList laps={row.laps} />
+                  </div>
+                ) : null}
+              </CardContent>
             </Card>
-          ))}
+            );
+          })}
       </section>
 
+      <GrowthCharts series={growthSeriesFor(results, rows)} />
       <section className="flex flex-col gap-3">
         <h2 className="text-sm font-medium text-muted-foreground">대회 기록</h2>
         <ResultsTable rows={results} showEvent />

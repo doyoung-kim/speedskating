@@ -1,4 +1,8 @@
-import seed from "@/data/meets/2026-taereung-certified.json";
+import meet2023 from "@/data/meets/2023-taereung-certified.json";
+import meet2024 from "@/data/meets/2024-taereung-certified.json";
+import meet2025 from "@/data/meets/2025-taereung-certified.json";
+import lapFile from "@/data/meets/2026-taereung-laps.json";
+import meet2026 from "@/data/meets/2026-taereung-certified.json";
 
 import { normalizeText } from "@/lib/records/labels";
 import type {
@@ -7,55 +11,82 @@ import type {
   Competition,
   Division,
   Gender,
+  LapSplit,
   MeetEvent,
   RecordsFile,
   ResultRow,
 } from "@/lib/records/types";
 
-const data = seed as RecordsFile;
+const files = [meet2026, meet2025, meet2024, meet2023] as RecordsFile[];
+const lapsByResult = lapFile as Record<string, LapSplit[]>;
 
-const affiliationById = new Map(data.affiliations.map((item) => [item.id, item]));
-const athleteById = new Map(data.athletes.map((item) => [item.id, item]));
-const eventById = new Map(data.events.map((item) => [item.id, item]));
+const affiliationById = new Map<string, Affiliation>();
+const athleteById = new Map<string, Athlete>();
+const eventById = new Map<string, MeetEvent>();
 
-export const competition: Competition = data.competition;
+for (const file of files) {
+  for (const item of file.affiliations) affiliationById.set(item.id, item);
+  for (const item of file.athletes) athleteById.set(item.id, item);
+  for (const item of file.events) eventById.set(item.id, item);
+}
 
-export const rows: ResultRow[] = data.results.flatMap((result) => {
-  const athlete = athleteById.get(result.athleteId);
-  const affiliation = affiliationById.get(result.affiliationId);
-  const event = eventById.get(result.eventId);
-  if (!athlete || !affiliation || !event) return [];
-  return [
-    {
-      resultId: result.id,
-      rank: result.rank,
-      divisionRank: result.divisionRank,
-      division: result.division,
-      timeDisplay: result.timeDisplay,
-      timeMs: result.timeMs,
-      status: result.status,
-      lane: result.lane,
-      recordFlag: result.recordFlag,
-      athleteId: athlete.id,
-      athleteName: athlete.name,
-      affiliationName: affiliation.name,
-      region: affiliation.region,
-      eventId: event.id,
-      eventLabel: event.label,
-      eventDate: event.date,
-      gender: event.gender,
-      distance: event.distance,
-      round: event.round,
-      competitionId: data.competition.id,
-      competitionName: data.competition.name,
-    },
-  ];
-});
+const byStartDate = [...files].sort((a, b) =>
+  b.competition.startDate.localeCompare(a.competition.startDate),
+);
+
+export const competition: Competition = byStartDate[0].competition;
+
+function rowsFor(file: RecordsFile): ResultRow[] {
+  return file.results.flatMap((result) => {
+    const athlete = athleteById.get(result.athleteId);
+    const affiliation = affiliationById.get(result.affiliationId);
+    const event = eventById.get(result.eventId);
+    if (!athlete || !affiliation || !event) return [];
+    return [
+      {
+        resultId: result.id,
+        rank: result.rank,
+        divisionRank: result.divisionRank,
+        division: result.division,
+        timeDisplay: result.timeDisplay,
+        timeMs: result.timeMs,
+        status: result.status,
+        lane: result.lane,
+        recordFlag: result.recordFlag,
+        athleteId: athlete.id,
+        athleteName: athlete.name,
+        affiliationName: affiliation.name,
+        region: affiliation.region,
+        eventId: event.id,
+        eventLabel: event.label,
+        eventDate: event.date,
+        gender: event.gender,
+        distance: event.distance,
+        round: event.round,
+        competitionId: file.competition.id,
+        competitionName: file.competition.name,
+        laps: lapsByResult[result.id],
+      },
+    ];
+  });
+}
+
+export const rows: ResultRow[] = files.flatMap(rowsFor);
 
 export function listEvents(competitionId = competition.id) {
-  return data.events
+  return [...eventById.values()]
     .filter((event) => event.competitionId === competitionId)
     .sort((a, b) => a.date.localeCompare(b.date) || a.distance - b.distance);
+}
+
+export function getMeet(id: string) {
+  const file = files.find((item) => item.competition.id === id);
+  if (!file) return null;
+  return {
+    competition: file.competition,
+    events: listEvents(id),
+    rows: rows.filter((row) => row.competitionId === id),
+  };
 }
 
 export function getAthlete(id: string) {
@@ -69,7 +100,7 @@ export function getAthlete(id: string) {
 export function searchAthletes(query: string) {
   const needle = normalizeText(query);
   if (!needle) return [];
-  return data.athletes
+  return [...athleteById.values()]
     .map((athlete) => {
       const affiliation = affiliationById.get(athlete.affiliationId);
       return affiliation ? { athlete, affiliation } : null;
@@ -88,9 +119,11 @@ export function bestTimes(filters: {
   division?: Division | "all";
   gender?: Gender | "all";
   distance?: number | "all";
+  competitionId?: string;
 }) {
   const pool = rows.filter((row) => {
     if (row.status !== "ok" || row.timeMs == null) return false;
+    if (filters.competitionId && row.competitionId !== filters.competitionId) return false;
     if (filters.division && filters.division !== "all" && row.division !== filters.division) {
       return false;
     }
@@ -117,17 +150,27 @@ export function bestTimes(filters: {
   });
 }
 
-export function meetSummary() {
+function summarize(file: RecordsFile) {
   return {
-    competition,
-    eventCount: data.events.length,
-    athleteCount: data.athletes.length,
-    resultCount: data.results.length,
+    competition: file.competition,
+    eventCount: file.events.length,
+    athleteCount: file.athletes.length,
+    resultCount: file.results.length,
   };
 }
 
+export function meetSummary() {
+  return summarize(byStartDate[0]);
+}
+
+export function listMeetSummaries() {
+  return byStartDate.map(summarize);
+}
+
 export function distances() {
-  return [...new Set(data.events.map((event) => event.distance))].sort((a, b) => a - b);
+  return [...new Set([...eventById.values()].map((event) => event.distance))].sort(
+    (a, b) => a - b,
+  );
 }
 
 export type { MeetEvent };
