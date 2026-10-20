@@ -3,11 +3,11 @@ import Link from "next/link";
 import { SearchForm } from "@/components/records/search-form";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { meetSummary } from "@/lib/records/catalog";
+import { listMeetSummaries } from "@/lib/records/catalog";
 import { formatDateRange } from "@/lib/records/labels";
 
 export default function Home() {
-  const meet = meetSummary();
+  const meets = listMeetSummaries();
 
   return (
     <main className="flex flex-col gap-10">
@@ -26,23 +26,24 @@ export default function Home() {
       </section>
 
       <section className="grid gap-4 md:grid-cols-2">
-        <Card>
-          <CardHeader>
-            <CardTitle>최근 대회</CardTitle>
-            <CardDescription>
-              {formatDateRange(meet.competition.startDate, meet.competition.endDate)} ·{" "}
-              {meet.competition.venue}
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="flex flex-col gap-3">
-            <Link href={`/meets/${meet.competition.id}`} className="text-lg font-medium hover:underline">
-              {meet.competition.name}
-            </Link>
-            <p className="text-sm text-muted-foreground">
+        {meets.map((meet) => (
+          <Card key={meet.competition.id}>
+            <CardHeader>
+              <CardTitle>
+                <Link href={`/meets/${meet.competition.id}`} className="hover:underline">
+                  {meet.competition.name}
+                </Link>
+              </CardTitle>
+              <CardDescription>
+                {formatDateRange(meet.competition.startDate, meet.competition.endDate)} ·{" "}
+                {meet.competition.venue}
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="text-sm text-muted-foreground">
               종목 {meet.eventCount} · 선수 {meet.athleteCount} · 기록 {meet.resultCount}
-            </p>
-          </CardContent>
-        </Card>
+            </CardContent>
+          </Card>
+        ))}
         <Card>
           <CardHeader>
             <CardTitle>다음 대회 결과</CardTitle>

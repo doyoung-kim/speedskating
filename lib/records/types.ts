@@ -45,6 +45,12 @@ export type Athlete = {
   affiliationId: string;
 };
 
+export type LapSplit = {
+  atMeters: number;
+  splitDisplay: string;
+  lapDisplay: string;
+};
+
 export type Result = {
   id: string;
   eventId: string;
@@ -91,4 +97,5 @@ export type ResultRow = {
   round: string;
   competitionId: string;
   competitionName: string;
+  laps?: LapSplit[];
 };
